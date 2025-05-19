@@ -27,6 +27,7 @@ public class Hotelservices {
             default:
                 System.out.println("Invalid choice");
 
+
         }
     }
 }
