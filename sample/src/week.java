@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class week {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("ENter the number within 1-7");
+        System.out.println("Enter the number within 1-7");
         int choice = sc.nextInt();
         switch(choice){
             case 1:
-                System.out.println("MOnday");
+                System.out.println("Monday");
                 break;
             case 2:
                 System.out.println("Tuesday");
