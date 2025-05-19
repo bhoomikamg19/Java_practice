@@ -6,6 +6,7 @@ public class Atm {
         System.out.println("Enter your choice");
         int choice = sc.nextInt();
         switch (choice) {
+
             case 1:
                 System.out.println("Balance Inquiry");
                 break;
