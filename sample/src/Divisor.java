@@ -1,9 +1,13 @@
+import java.util.Scanner;
+
 public class Divisor {
     public static void main(String[] args) {
-        int num=20;
-        for(int i=1; i<=20;i++){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num = sc.nextInt();
+        for(int i=1; i<=num;i++){
             if(num % i == 0){
-                System.out.println("Divisor of 20: " + i);
+                System.out.println("Divisor of " + num + ": " + i);
             }
         }
     }
