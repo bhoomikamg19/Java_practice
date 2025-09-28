@@ -8,7 +8,6 @@ public class armstrong {
             int num= digit % 10;
             count++;
             digit = digit / 10;
-
         }
         int sum=0;
         while(temp>0){
